@@ -1,0 +1,98 @@
+
+
+#title{
+    font-size: 100px;
+  }
+  
+  #me{
+    height: 300px;
+    width: 300px;
+  
+  }
+  
+  
+  #head{
+    color: black;
+  }
+  
+  #oas{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 35px;
+  }
+
+  #oas-2{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 20px;
+    padding-top: 30px;
+  }
+  
+  .featured-img{
+    opacity: 1.0;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -40px;
+    }
+  
+  .featured-img:hover{
+    opacity: 0.5;
+  }
+
+  
+  .badge{
+    color: white;
+  }
+  
+  .description{
+  
+    font-size: 20px;
+  }
+  .home{
+    text-align: center;
+  }
+  .about{
+      background-color: #dddddd;
+    text-align: left;
+      min-height: 90vh;
+  }
+  
+  .introduction{
+    align-items: center;
+  }
+  
+  .container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    min-height: 90vh;
+  }
+  
+  .grid-container{
+  
+    display: grid;
+    grid-template-columns: repeat( 3, minmax(250px, 1fr) );
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  
+  
+  .container{
+    text-align: left;
+  
+  }
+  
+  .card{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #lm-card{
+    margin-left: 45px;
+  }
